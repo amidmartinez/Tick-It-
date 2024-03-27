@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faSquareXTwitter, faInstagram, faGithub, faLinkedin, faSnapchat } from '@fortawesome/free-brands-svg-icons'
+
 
 function Footer() {
   return (
@@ -26,15 +25,7 @@ function Footer() {
       <div className="footer-contact">
         <div className="footer-copyright">©2024</div>
           <div className="footer-appname">Tick-It</div>
-          <div className="footer-social-icons">
-            <FontAwesomeIcon icon={faFacebook} />
-            <FontAwesomeIcon icon={faSquareXTwitter} />
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faGithub} />
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faSnapchat} />
           </div>
-        </div>
     </footer>
   );
 }
