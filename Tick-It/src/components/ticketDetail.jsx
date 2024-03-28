@@ -4,8 +4,8 @@ const ticketDetail = ({ event }) => {
   return (
     <div className="ticket-detail">
       <h2>{event.title}</h2>
-      <p>{event.price}</p>
-      <p>{event.availability}</p>
+      <p>Price: {event.price}</p>
+      <p>Availability: {event.availability}</p>
     </div>
   );
 };
